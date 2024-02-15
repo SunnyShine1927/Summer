@@ -1,0 +1,121 @@
+/* Globl Styles */ 
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+body {
+    background-color: rgb(247, 185, 216);
+}
+#container {
+    background-color: white;
+    padding: 20px;
+}
+h1, h2, h3{
+    text-align: center;
+}
+a {
+   color: rgb(221, 115, 198); 
+}
+a :hover {
+    color: darkorchid;
+    text-decoration: none;
+}
+/* Mobile Styles */
+nav {
+    background-color: rgb(216, 177, 253);
+    padding: 10px;
+}
+nav ul {
+   list-style: none; 
+   padding: 0;
+}
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: rgb(252, 212, 248);
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: rgb(194, 153, 233);
+}
+header h1 {
+    font-size: 35px;
+    
+    color: aqua;
+}
+main {
+    border: 3px solid black;
+    padding: 10px
+
+}
+#lower {
+    border: 3px solid black;
+    padding: 10px
+}
+.col {
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+.button {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    background-color: pink;
+    width: 125px ;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.button:hover {
+    color: black;
+}
+/* Tablet */
+@media (min-width: 786px) {
+    nav {
+       text-align: center; 
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 200px;
+    }
+}
+main img {
+    width: 280px;
+}
+.col img {
+    width: 280px;
+}
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    #lower {
+        width: 100%;
+        display:flex
+    }
+    .col {
+        width: 33.33%;
+        
+    }
+}
