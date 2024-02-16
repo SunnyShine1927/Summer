@@ -99,10 +99,10 @@ footer {
     }
 }
 main img {
-    width: 280px;
+    width: 100px;
 }
 .col img {
-    width: 280px;
+    width: 70px;
 }
 /* Desktop Styles */
 @media (min-width: 1024px) {
@@ -116,6 +116,6 @@ main img {
     }
     .col {
         width: 33.33%;
-        
+
     }
 }
