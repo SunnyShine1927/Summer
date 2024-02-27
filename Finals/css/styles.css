@@ -1,0 +1,131 @@
+/* Globl Styles */ 
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+body {
+    background-color: rgb(213, 147, 252);
+}
+#container {
+    background-color: rgb(241, 182, 253);
+    padding: 20px;
+}
+h1, h2, h3{
+    text-align: center;
+    color:white;
+    text-shadow: 3px 3px pink;
+    
+
+
+}
+a {
+   color: rgb(255, 255, 255); 
+}
+a :hover {
+    color: rgb(216, 133, 255);
+    text-decoration: none;
+}
+/* Mobile Styles */
+nav {
+    background-color: rgb(227, 157, 255);
+    padding: 10px;
+}
+nav ul {
+   list-style: none; 
+   padding: 0;
+}
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: rgb(252, 212, 248);
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: rgb(241, 173, 236);
+}
+header h1 {
+    font-size: 35px;
+    
+    color: rgb(200, 123, 245);
+    text-shadow: 3px 3px white;
+}
+main {
+    border: 3px solid rgb(255, 255, 255);
+    padding: 20px;
+    
+
+}
+#lower {
+    border: 3px solid rgb(255, 255, 255);
+    padding: 1px
+}
+.col {
+    border: 3px solid rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+}
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
+.button {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    background-color: rgb(247, 186, 223);
+    width: 115px ;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.button:hover {
+    color: rgb(255, 255, 255);
+}
+/* Tablet */
+@media (min-width: 786px) {
+    nav {
+       text-align: center; 
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 200px;
+    }
+}
+main img {
+    width: 400px;
+}
+.col img {
+    width: 200px;
+}
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    #lower {
+        width: 100%;
+        display:flex
+    }
+    .col {
+        width: 33.33%;
+
+    }
+}
+hr {
+    background-color: white;
+}
