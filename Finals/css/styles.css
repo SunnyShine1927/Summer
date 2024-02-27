@@ -48,6 +48,8 @@ nav li a {
     margin: 5px 0;
     font-size: 20px;
     text-decoration: none;
+    text-shadow: 2px 2px plum;
+    
 }
 nav li a:hover {
     background-color: rgb(241, 173, 236);
@@ -128,4 +130,5 @@ main img {
 }
 hr {
     background-color: white;
+
 }
