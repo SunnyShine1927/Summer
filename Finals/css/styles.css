@@ -5,15 +5,15 @@ img {
     width: 100%;
 }
 body {
-    background-color: rgb(213, 147, 252);
+    background-color: rgb(255, 255, 255);
 }
 #container {
-    background-color: rgb(241, 182, 253);
+    background-color: rgb(253, 182, 215);
     padding: 20px;
 }
 h1, h2, h3{
     text-align: center;
-    color:white;
+    color:rgb(0, 0, 0);
     text-shadow: 3px 3px pink;
     
 
@@ -23,12 +23,12 @@ a {
    color: rgb(255, 255, 255); 
 }
 a :hover {
-    color: rgb(216, 133, 255);
+    color: rgb(253, 182, 215);
     text-decoration: none;
 }
 /* Mobile Styles */
 nav {
-    background-color: rgb(227, 157, 255);
+    background-color: rgb(253, 182, 215);
     padding: 10px;
 }
 nav ul {
